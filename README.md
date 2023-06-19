@@ -23,7 +23,7 @@ https://www.docker.com/products/docker-desktop/
 }
 ```
 
-## 3. 下载系统环境image
+## 4. 下载系统环境image
 
 进入windows cmd, 运行
 
@@ -37,7 +37,7 @@ docker pull ubuntu
 docker images
 ```
 
-## 3. 更据Dockerfile下载其他环境
+## 5. 更据Dockerfile下载其他环境
 
 注：可根据自己需求在Dockerfile里安装所需package
 
@@ -47,7 +47,7 @@ docker images
 docker build -t ubuntu_python:v1 .
 ```
 
-## 3. 运行容器，进入bash
+## 6. 运行容器，进入bash
 
 本地当前目录下有project1文件，映射到docker里project2文件
 
